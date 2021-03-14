@@ -1,0 +1,14 @@
+<div class="card animated faceIn fast">
+     <img class="card-img-top img-fluid" [src]="heroe.img" [alt]="heroe.nombre">
+     <div class="card-block">
+       <h4 class="card-title">{{ heroe.nombre }}</h4>
+       <p class="card-text">{{ heroe.bio }}</p>
+       <p class="card-text"><small class="text-muted">{{ heroe.aparicion }}</small></p>
+
+       <button (click)="verHeroe()"
+        type="button" class="btn btn-outline-primary byn-block">
+         Ver más...
+       </button>
+
+     </div>
+  </div>
